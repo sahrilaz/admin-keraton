@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard</title>
+<style>
+  /* Add your CSS styles here */
+  .dashboard {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 48%;
+  }
+  .card-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card-item {
+    text-align: center;
+  }
+  /* Add more styles for icons, colors, etc. */
+</style>
+</head>
+<body>
+
+<div class="dashboard">
+  <div class="card">
+    <div class="card-header">Deposits</div>
+    <div class="card-content">
+      <div class="card-item">
+        <p>\$869,864.00 USD</p>
+        <p>Total Deposited</p>
+      </div>
+      <div class="card-item">
+        <p>497</p>
+        <p>Pending Deposits</p>
+      </div>
+      <!-- Add more card items here -->
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="card-header">Withdrawals</div>
+    <div class="card-content">
+      <div class="card-item">
+        <p>\$4,544.00 USD</p>
+        <p>Total Withdrawn</p>
+      </div>
+      <div class="card-item">
+        <p>2</p>
+        <p>Rejected Withdrawals</p>
+      </div>
+      <!-- Add more card items here -->
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
